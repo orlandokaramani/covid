@@ -33,7 +33,7 @@ const covidDataTypes = {
   deaths: {
     key: 'deaths',
     title: 'Vdekje',
-    dataSourceUrl: 'https://raw.githubusercontent.com/orlandokaramani/covid/master/data/deaths1.csv',
+    dataSourceUrl: 'https://raw.githubusercontent.com/orlandokaramani/covid/master/data/deaths2.csv',
     borderColor: deathsPalette,
     alertClass: 'alert-danger',
     badgeClass: 'badge-danger',
