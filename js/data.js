@@ -17,7 +17,7 @@ const covidDataTypes = {
   confirmed: {
     key: 'confirmed',
     title: 'Konfirmuar',
-    dataSourceUrl: `${covidDataBaseURL}/time_series_covid19_confirmed_global.csv`,
+    dataSourceUrl: `https://raw.githubusercontent.com/orlandokaramani/covid/master/data/confirmed.csv`,
     borderColor: confirmedPalette,
     alertClass: 'alert-warning',
     badgeClass: 'badge-warning',
