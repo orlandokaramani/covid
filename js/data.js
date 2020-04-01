@@ -17,7 +17,7 @@ const covidDataTypes = {
   confirmed: {
     key: 'confirmed',
     title: 'Konfirmuar',
-    dataSourceUrl: `https://raw.githubusercontent.com/orlandokaramani/covid/master/data/confirmed.csv`,
+    dataSourceUrl: `https://raw.githubusercontent.com/orlandokaramani/covid/master/data/confirmed1.csv`,
     borderColor: confirmedPalette,
     alertClass: 'alert-warning',
     badgeClass: 'badge-warning',
@@ -25,7 +25,7 @@ const covidDataTypes = {
   recovered: {
     key: 'recovered',
     title: 'Të shëruar',
-    dataSourceUrl: `${covidDataBaseURL}/time_series_covid19_recovered_global.csv`,
+    dataSourceUrl: `https://raw.githubusercontent.com/orlandokaramani/covid/master/data/recovered1.csv`,
     borderColor: recoveredPalette,
     alertClass: 'alert-success',
     badgeClass: 'badge-success',
@@ -33,7 +33,7 @@ const covidDataTypes = {
   deaths: {
     key: 'deaths',
     title: 'Vdekje',
-    dataSourceUrl: 'https://raw.githubusercontent.com/orlandokaramani/covid/master/data/deaths.csv',
+    dataSourceUrl: 'https://raw.githubusercontent.com/orlandokaramani/covid/master/data/deaths1.csv',
     borderColor: deathsPalette,
     alertClass: 'alert-danger',
     badgeClass: 'badge-danger',
